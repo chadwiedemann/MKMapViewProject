@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapViewController">
+            <connections>
+                <outlet property="mapView" destination="NYd-JX-8Tq" id="8X3-3C-WRJ"/>
+                <outlet property="searchBar" destination="0vj-EG-X0c" id="bWq-Iu-5qf"/>
+                <outlet property="turnToTechLogoImageView" destination="Ihg-ck-2Od" id="kjR-X1-Teu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u0B-0p-gHJ">
+                    <rect key="frame" x="0.0" y="980" width="768" height="44"/>
+                    <items>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="nQn-pK-6zt"/>
+                        <barButtonItem style="plain" id="RLD-iK-XKe">
+                            <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="2" id="rJz-Mh-NGC">
+                                <rect key="frame" x="548" y="7" width="200" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Standard"/>
+                                    <segment title="Hybrid"/>
+                                    <segment title="Sattelite"/>
+                                </segments>
+                                <connections>
+                                    <action selector="setMap:" destination="-1" eventType="valueChanged" id="6bA-4v-UGW"/>
+                                </connections>
+                            </segmentedControl>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="NYd-JX-8Tq">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="980"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="tRa-Og-cDF"/>
+                    </connections>
+                </mapView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ihg-ck-2Od" userLabel="Turn To Tech Logo Image View">
+                    <rect key="frame" x="20" y="20" width="119" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="HiC-UM-nVG"/>
+                        <constraint firstAttribute="width" constant="119" id="kOO-8P-8X3"/>
+                    </constraints>
+                </imageView>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="0vj-EG-X0c">
+                    <rect key="frame" x="0.0" y="936" width="768" height="44"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="0vj-EG-X0c" secondAttribute="trailing" id="26Z-Sn-ubO"/>
+                <constraint firstItem="NYd-JX-8Tq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="A6m-0u-3jL"/>
+                <constraint firstItem="u0B-0p-gHJ" firstAttribute="top" secondItem="0vj-EG-X0c" secondAttribute="bottom" id="ANj-Iw-8LD"/>
+                <constraint firstAttribute="trailing" secondItem="NYd-JX-8Tq" secondAttribute="trailing" id="IJv-0k-HUL"/>
+                <constraint firstItem="NYd-JX-8Tq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Mvz-Lm-bI1"/>
+                <constraint firstItem="Ihg-ck-2Od" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" symbolic="YES" id="Mxf-HX-Pn6"/>
+                <constraint firstAttribute="bottom" secondItem="u0B-0p-gHJ" secondAttribute="bottom" id="V8v-gC-VmK"/>
+                <constraint firstItem="Ihg-ck-2Od" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" symbolic="YES" id="XLD-hd-cM6"/>
+                <constraint firstItem="0vj-EG-X0c" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cAT-so-y9e"/>
+                <constraint firstItem="u0B-0p-gHJ" firstAttribute="top" secondItem="NYd-JX-8Tq" secondAttribute="bottom" id="pAJ-5S-h32"/>
+                <constraint firstAttribute="trailing" secondItem="u0B-0p-gHJ" secondAttribute="trailing" id="vm0-vC-jd5"/>
+                <constraint firstItem="u0B-0p-gHJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zaG-vB-Ryg"/>
+            </constraints>
+            <point key="canvasLocation" x="327" y="374"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo.png" width="277" height="49"/>
+    </resources>
+</document>

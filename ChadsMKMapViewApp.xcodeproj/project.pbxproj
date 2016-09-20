@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D830C7351D8C4C10006E0171 /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = D830C7341D8C4C10006E0171 /* burger.png */; };
+		D830C7371D8C4C4D006E0171 /* coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = D830C7361D8C4C4D006E0171 /* coffee.png */; };
+		D830C73B1D8C721A006E0171 /* WebSiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C7391D8C721A006E0171 /* WebSiteViewController.m */; };
+		D830C73C1D8C721A006E0171 /* WebSiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D830C73A1D8C721A006E0171 /* WebSiteViewController.xib */; };
+		D830C73F1D8C8286006E0171 /* Resaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C73E1D8C8286006E0171 /* Resaurant.m */; };
+		D830C7421D8C96A9006E0171 /* RestaurantWithNoCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = D830C7411D8C96A9006E0171 /* RestaurantWithNoCoordinate.m */; };
+		D8F6EBBC1D8AF740000709D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F6EBBB1D8AF740000709D6 /* main.m */; };
+		D8F6EBBF1D8AF740000709D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F6EBBE1D8AF740000709D6 /* AppDelegate.m */; };
+		D8F6EBC71D8AF740000709D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F6EBC61D8AF740000709D6 /* Assets.xcassets */; };
+		D8F6EBD21D8AF799000709D6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F6EBD11D8AF799000709D6 /* logo.png */; };
+		D8F6EBD41D8AF7F2000709D6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F6EBD31D8AF7F2000709D6 /* CoreLocation.framework */; };
+		D8F6EBD61D8AF807000709D6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F6EBD51D8AF807000709D6 /* MapKit.framework */; };
+		D8F6EBD81D8AF814000709D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F6EBD71D8AF814000709D6 /* UIKit.framework */; };
+		D8F6EBDA1D8AF820000709D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F6EBD91D8AF820000709D6 /* Foundation.framework */; };
+		D8F6EBDC1D8AF82F000709D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F6EBDB1D8AF82F000709D6 /* CoreGraphics.framework */; };
+		D8F6EBE01D8AF8E3000709D6 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F6EBDE1D8AF8E3000709D6 /* MapViewController.m */; };
+		D8F6EBE11D8AF8E3000709D6 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8F6EBDF1D8AF8E3000709D6 /* MapViewController.xib */; };
+		D8F6EBE61D8B0B3E000709D6 /* MapView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8F6EBE51D8B0B3E000709D6 /* MapView-Info.plist */; };
+		D8F6EBE81D8B0B4B000709D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8F6EBE71D8B0B4B000709D6 /* InfoPlist.strings */; };
+		D8F6EBED1D8B1624000709D6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F6EBEA1D8B1624000709D6 /* Default.png */; };
+		D8F6EBEE1D8B1624000709D6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F6EBEB1D8B1624000709D6 /* Default@2x.png */; };
+		D8F6EBEF1D8B1624000709D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F6EBEC1D8B1624000709D6 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D830C7341D8C4C10006E0171 /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger.png; sourceTree = "<group>"; };
+		D830C7361D8C4C4D006E0171 /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
+		D830C7381D8C721A006E0171 /* WebSiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSiteViewController.h; sourceTree = "<group>"; };
+		D830C7391D8C721A006E0171 /* WebSiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSiteViewController.m; sourceTree = "<group>"; };
+		D830C73A1D8C721A006E0171 /* WebSiteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebSiteViewController.xib; sourceTree = "<group>"; };
+		D830C73D1D8C8286006E0171 /* Resaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resaurant.h; sourceTree = "<group>"; };
+		D830C73E1D8C8286006E0171 /* Resaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resaurant.m; sourceTree = "<group>"; };
+		D830C7401D8C96A9006E0171 /* RestaurantWithNoCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantWithNoCoordinate.h; sourceTree = "<group>"; };
+		D830C7411D8C96A9006E0171 /* RestaurantWithNoCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantWithNoCoordinate.m; sourceTree = "<group>"; };
+		D8F6EBB71D8AF740000709D6 /* ChadsMKMapViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChadsMKMapViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F6EBBB1D8AF740000709D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8F6EBBD1D8AF740000709D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8F6EBBE1D8AF740000709D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8F6EBC61D8AF740000709D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8F6EBCB1D8AF740000709D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F6EBD11D8AF799000709D6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D8F6EBD31D8AF7F2000709D6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D8F6EBD51D8AF807000709D6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D8F6EBD71D8AF814000709D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8F6EBD91D8AF820000709D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8F6EBDB1D8AF82F000709D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8F6EBDD1D8AF8E3000709D6 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		D8F6EBDE1D8AF8E3000709D6 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		D8F6EBDF1D8AF8E3000709D6 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		D8F6EBE51D8B0B3E000709D6 /* MapView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MapView-Info.plist"; sourceTree = "<group>"; };
+		D8F6EBE71D8B0B4B000709D6 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		D8F6EBE91D8B161A000709D6 /* MapView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapView-Prefix.pch"; sourceTree = "<group>"; };
+		D8F6EBEA1D8B1624000709D6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D8F6EBEB1D8B1624000709D6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D8F6EBEC1D8B1624000709D6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8F6EBB41D8AF740000709D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F6EBDC1D8AF82F000709D6 /* CoreGraphics.framework in Frameworks */,
+				D8F6EBDA1D8AF820000709D6 /* Foundation.framework in Frameworks */,
+				D8F6EBD81D8AF814000709D6 /* UIKit.framework in Frameworks */,
+				D8F6EBD61D8AF807000709D6 /* MapKit.framework in Frameworks */,
+				D8F6EBD41D8AF7F2000709D6 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8F6EBAE1D8AF740000709D6 = {
+			isa = PBXGroup;
+			children = (
+				D8F6EBB91D8AF740000709D6 /* ChadsMKMapViewApp */,
+				D8F6EBB81D8AF740000709D6 /* Products */,
+				D8F6EBE21D8B0039000709D6 /* FrameWorks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8F6EBB81D8AF740000709D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8F6EBB71D8AF740000709D6 /* ChadsMKMapViewApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F6EBB91D8AF740000709D6 /* ChadsMKMapViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				D8F6EBE31D8B00A6000709D6 /* AppDelegate */,
+				D8F6EBE41D8B00D4000709D6 /* Controller */,
+				D8F6EBC61D8AF740000709D6 /* Assets.xcassets */,
+				D8F6EBCB1D8AF740000709D6 /* Info.plist */,
+				D8F6EBBA1D8AF740000709D6 /* Supporting Files */,
+			);
+			path = ChadsMKMapViewApp;
+			sourceTree = "<group>";
+		};
+		D8F6EBBA1D8AF740000709D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D830C7341D8C4C10006E0171 /* burger.png */,
+				D8F6EBD11D8AF799000709D6 /* logo.png */,
+				D830C7361D8C4C4D006E0171 /* coffee.png */,
+				D8F6EBE71D8B0B4B000709D6 /* InfoPlist.strings */,
+				D8F6EBE51D8B0B3E000709D6 /* MapView-Info.plist */,
+				D8F6EBE91D8B161A000709D6 /* MapView-Prefix.pch */,
+				D8F6EBBB1D8AF740000709D6 /* main.m */,
+				D8F6EBEA1D8B1624000709D6 /* Default.png */,
+				D8F6EBEB1D8B1624000709D6 /* Default@2x.png */,
+				D8F6EBEC1D8B1624000709D6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8F6EBE21D8B0039000709D6 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				D8F6EBD31D8AF7F2000709D6 /* CoreLocation.framework */,
+				D8F6EBD51D8AF807000709D6 /* MapKit.framework */,
+				D8F6EBD71D8AF814000709D6 /* UIKit.framework */,
+				D8F6EBD91D8AF820000709D6 /* Foundation.framework */,
+				D8F6EBDB1D8AF82F000709D6 /* CoreGraphics.framework */,
+			);
+			name = FrameWorks;
+			path = ChadsMKMapViewApp;
+			sourceTree = "<group>";
+		};
+		D8F6EBE31D8B00A6000709D6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D8F6EBBD1D8AF740000709D6 /* AppDelegate.h */,
+				D8F6EBBE1D8AF740000709D6 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D8F6EBE41D8B00D4000709D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D8F6EBDD1D8AF8E3000709D6 /* MapViewController.h */,
+				D8F6EBDE1D8AF8E3000709D6 /* MapViewController.m */,
+				D8F6EBDF1D8AF8E3000709D6 /* MapViewController.xib */,
+				D830C7401D8C96A9006E0171 /* RestaurantWithNoCoordinate.h */,
+				D830C7411D8C96A9006E0171 /* RestaurantWithNoCoordinate.m */,
+				D830C73D1D8C8286006E0171 /* Resaurant.h */,
+				D830C73E1D8C8286006E0171 /* Resaurant.m */,
+				D830C7381D8C721A006E0171 /* WebSiteViewController.h */,
+				D830C7391D8C721A006E0171 /* WebSiteViewController.m */,
+				D830C73A1D8C721A006E0171 /* WebSiteViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8F6EBB61D8AF740000709D6 /* ChadsMKMapViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F6EBCE1D8AF740000709D6 /* Build configuration list for PBXNativeTarget "ChadsMKMapViewApp" */;
+			buildPhases = (
+				D8F6EBB31D8AF740000709D6 /* Sources */,
+				D8F6EBB41D8AF740000709D6 /* Frameworks */,
+				D8F6EBB51D8AF740000709D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChadsMKMapViewApp;
+			productName = ChadsMKMapViewApp;
+			productReference = D8F6EBB71D8AF740000709D6 /* ChadsMKMapViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8F6EBAF1D8AF740000709D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Chad Wiedemann";
+				TargetAttributes = {
+					D8F6EBB61D8AF740000709D6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P44YFW78FY;
+					};
+				};
+			};
+			buildConfigurationList = D8F6EBB21D8AF740000709D6 /* Build configuration list for PBXProject "ChadsMKMapViewApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8F6EBAE1D8AF740000709D6;
+			productRefGroup = D8F6EBB81D8AF740000709D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8F6EBB61D8AF740000709D6 /* ChadsMKMapViewApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8F6EBB51D8AF740000709D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F6EBD21D8AF799000709D6 /* logo.png in Resources */,
+				D8F6EBED1D8B1624000709D6 /* Default.png in Resources */,
+				D830C7351D8C4C10006E0171 /* burger.png in Resources */,
+				D8F6EBE11D8AF8E3000709D6 /* MapViewController.xib in Resources */,
+				D830C73C1D8C721A006E0171 /* WebSiteViewController.xib in Resources */,
+				D8F6EBE61D8B0B3E000709D6 /* MapView-Info.plist in Resources */,
+				D830C7371D8C4C4D006E0171 /* coffee.png in Resources */,
+				D8F6EBC71D8AF740000709D6 /* Assets.xcassets in Resources */,
+				D8F6EBEF1D8B1624000709D6 /* Default-568h@2x.png in Resources */,
+				D8F6EBEE1D8B1624000709D6 /* Default@2x.png in Resources */,
+				D8F6EBE81D8B0B4B000709D6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8F6EBB31D8AF740000709D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830C73F1D8C8286006E0171 /* Resaurant.m in Sources */,
+				D830C73B1D8C721A006E0171 /* WebSiteViewController.m in Sources */,
+				D8F6EBE01D8AF8E3000709D6 /* MapViewController.m in Sources */,
+				D830C7421D8C96A9006E0171 /* RestaurantWithNoCoordinate.m in Sources */,
+				D8F6EBBF1D8AF740000709D6 /* AppDelegate.m in Sources */,
+				D8F6EBBC1D8AF740000709D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D8F6EBCC1D8AF740000709D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D8F6EBCD1D8AF740000709D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8F6EBCF1D8AF740000709D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChadsMKMapViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = turntotech.io.ChadsMKMapViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D8F6EBD01D8AF740000709D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChadsMKMapViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = turntotech.io.ChadsMKMapViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8F6EBB21D8AF740000709D6 /* Build configuration list for PBXProject "ChadsMKMapViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F6EBCC1D8AF740000709D6 /* Debug */,
+				D8F6EBCD1D8AF740000709D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F6EBCE1D8AF740000709D6 /* Build configuration list for PBXNativeTarget "ChadsMKMapViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F6EBCF1D8AF740000709D6 /* Debug */,
+				D8F6EBD01D8AF740000709D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8F6EBAF1D8AF740000709D6 /* Project object */;
+}
