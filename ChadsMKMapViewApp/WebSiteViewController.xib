@@ -16,6 +16,10 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L2h-eJ-zjP">
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
                 <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GGb-IZ-vhs">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                     <items>
@@ -28,15 +32,11 @@
                         </navigationItem>
                     </items>
                 </navigationBar>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L2h-eJ-zjP">
-                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="L2h-eJ-zjP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="26L-Rk-mOa"/>
-                <constraint firstItem="L2h-eJ-zjP" firstAttribute="top" secondItem="GGb-IZ-vhs" secondAttribute="bottom" id="I0V-GD-0ym"/>
+                <constraint firstItem="L2h-eJ-zjP" firstAttribute="top" secondItem="GGb-IZ-vhs" secondAttribute="bottom" id="9Ir-Aw-t2n"/>
                 <constraint firstAttribute="trailing" secondItem="GGb-IZ-vhs" secondAttribute="trailing" id="Uiw-Mk-Jd6"/>
                 <constraint firstAttribute="bottom" secondItem="L2h-eJ-zjP" secondAttribute="bottom" id="bLd-ZT-gjI"/>
                 <constraint firstAttribute="trailing" secondItem="L2h-eJ-zjP" secondAttribute="trailing" id="oto-d0-F4x"/>

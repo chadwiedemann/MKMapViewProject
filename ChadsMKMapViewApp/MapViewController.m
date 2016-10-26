@@ -66,7 +66,7 @@
     self.nearByRestaurants = [[NSMutableArray alloc]init];
     self.localSearchResults = [[NSMutableArray alloc] init];
     [self loadHardCodedPlaces];
-    [self searchForRestaurants:@"restaurant"];
+//    [self searchForRestaurants:@"restaurant"];
 }
 
 -(void)loadHardCodedPlaces
@@ -212,12 +212,12 @@
     }];
 }
 
+-(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
+{
+    [self searchForRestaurants:searchBar.text];
+}
+
 # pragma mark - get the view to move up when keyboard shows up
-
-
-
-
-
 
 -(void)keyboardWillShow {
     // Animate the current view out of the way

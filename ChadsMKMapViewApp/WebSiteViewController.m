@@ -18,9 +18,13 @@
     [super viewDidLoad];
     
     WKWebViewConfiguration *theConfig = [[WKWebViewConfiguration alloc]init];
-    self.webViewForWebSite = [[WKWebView alloc]initWithFrame:self.subViewForWebSite.frame configuration:theConfig];
-    self.webViewForWebSite.navigationDelegate = self;
+    
+   
+    self.webViewForWebSite = [[WKWebView alloc]init];
     [self.subViewForWebSite addSubview:self.webViewForWebSite];
+    
+    self.webViewForWebSite.navigationDelegate = self;
+    
 }
 
 -(void)viewWillAppear:(BOOL)animated
@@ -29,6 +33,11 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
     [self.webViewForWebSite loadRequest:request];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    self.webViewForWebSite.frame = self.subViewForWebSite.bounds;
 }
 
 - (void)didReceiveMemoryWarning {
